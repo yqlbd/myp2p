@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="myp2p_action" />
+        <module name="myp2p_cache" />
+        <module name="myp2p_dao" />
+        <module name="myp2p_domain" />
+        <module name="myp2p_home" />
+        <module name="myp2p_management" />
+        <module name="myp2p_service" />
+        <module name="myp2p_utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myp2p" target="1.5" />
+      <module name="myp2p_action" target="1.7" />
+      <module name="myp2p_cache" target="1.7" />
+      <module name="myp2p_dao" target="1.7" />
+      <module name="myp2p_domain" target="1.7" />
+      <module name="myp2p_home" target="1.7" />
+      <module name="myp2p_management" target="1.7" />
+      <module name="myp2p_service" target="1.7" />
+      <module name="myp2p_utils" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
